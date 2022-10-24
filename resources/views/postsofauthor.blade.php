@@ -3,7 +3,7 @@
 @section('content')
 
   <section id="services" class="container">
-     <h2 class="display-4 mt-5 mb-3 text-white"><strong>Posts by : {{$user->name}}</strong> </h2>
+     <h2 class="display-4 mt-6 mb-3 text-white"><strong>Posts by : {{$user->name}}</strong> </h2>
      <hr>
      @foreach($posts as $post)
       <div class="card my-3 py-3 {{($post->user->gender == 'Male') ? 'male' : 'female'}}">

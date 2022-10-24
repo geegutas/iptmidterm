@@ -12,7 +12,7 @@
      @foreach($posts as $post)
       <div class="card my-3 py-3 {{($post->user->gender == 'Male') ? 'male' : 'female'}}">
          <div class="card-body">
-            <div class="dropdown float-end bg-secondary bg-opacity-50">
+            <div class="dropdown float-end bg- bg-opacity-50">
               <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                 <i class="fas fa-list"></i> {{$post->category->category}}
               </button>

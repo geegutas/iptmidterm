@@ -5,7 +5,7 @@
 <body>
     <div class = "container">
         <div class="row mt-5 mb-2">
-            <div class="col-md-4 offset-md-4">
+            <div class="col-md-5 offset-md-4">
 
                 <form action="{{url('/register')}}" method="post">
                     {{csrf_field()}}

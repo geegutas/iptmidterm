@@ -8,7 +8,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="{{asset('css/styles.css')}}">
-    <title>IPT2 Midterm CheapTalk</title>
+    <title>CheapTalk (IPT_Midterm)</title>
 </head>
 
 <style>
@@ -22,7 +22,7 @@
 
 </style>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top shadow-lg">
+    <nav class="navbar navbar-expand-lg navbar-light bg-fixed fixed-top shadow-lg">
         <div class="container">
             <a class="navbar-brand text-white" href="/"><strong> CheapTalk </strong></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -35,10 +35,10 @@
                 <ul class="navbar-nav ms-auto">
                     @if(Auth::check())
                         <li class="nav-item">
-                            <a class="nav-link box text-white" href="/dashboard">Dashboard</a>
+                            <a class="nav-link box text-black" href="/dashboard">Dashboard</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-white nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle text-black nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Category
                             </a>
                             <ul class="dropdown-menu bg-primary bg-opacity-25" aria-labelledby="navbarDropdown">
@@ -50,10 +50,10 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link box text-white" href="/authors"> Users</a>
+                            <a class="nav-link box text-black" href="/authors"> Users</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link box text-white" href="/logout">Logout</a>
+                            <a class="nav-link box text-black" href="/logout">Logout</a>
                         </li>
                     @else
                         <li><a class=" nav-link box text-white " href="/login">Login</a></li>

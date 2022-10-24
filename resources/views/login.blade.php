@@ -26,7 +26,7 @@
                         </div>
 
                         <div class="d-grid gap-2 col-5 mx-auto mt-4 mb-4">
-                            <button class="btn btn-success" type="submit">Login</button>
+                            <button class="btn btn-secondary" type="submit">Login</button>
                         </div>
                             <p><a href="/">Forgot Password?</a></p>
                     </form>
