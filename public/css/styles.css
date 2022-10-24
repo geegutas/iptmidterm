@@ -1,0 +1,12 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://mcdn.wallpapersafari.com/medium/65/83/kCGlrT.jpg');
+    background-size: cover;
+}
+
+.male {
+    background-color: lightblue;
+}
+
+.female {
+    background-color: lightpink;
+}
